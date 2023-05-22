@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# This script is used by git to display the contents of a zip file.
+#
+# You can run this file from Windows by using
+# 'C:\Program Files\Git\bin\sh.exe'.
+#
+# Example: 
+# 
+# ```pwsh
+# & 'C:\Program Files\Git\bin\sh.exe' dump_contents -h
+# ```
+
+python -m src.dump_arcgis "$1"
